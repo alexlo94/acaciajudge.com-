@@ -7,7 +7,7 @@ tags:
   - animation
   - '3'
 ---
-{{title}}
+## {{title}}
 
 I created this model for use in a friend’s Unity game in spring 2018 using Autodesk Maya.
 
