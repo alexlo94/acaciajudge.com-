@@ -14,7 +14,6 @@ collections:
     label: "Projects"
     folder: "projects"
     create: true
-    slug: "{{ slug }}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/project.njk"}
       - {label: "Title", name: "title", widget: "string"}
