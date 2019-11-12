@@ -5,7 +5,7 @@ thumbnailSrc: /images/uploads/screen-shot-2019-04-17-at-11.11.41-pm.png
 tags:
   - projects
   - animation
-  - '3'
+  - 3d-model
 ---
 ## {{title}}
 
