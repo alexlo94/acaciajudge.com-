@@ -8,7 +8,7 @@ const mobileLinks = document.querySelector('.mobile-links');
 mobileMenu.addEventListener('click', (event) => {
     state.mobileLinksCollapsed = !state.mobileLinksCollapsed;
     // mobileLinks.style.display = state.mobileLinksCollapsed ? "none" : "block";
-    if(!state.mobileLinksCollapsed) {
+    if (!state.mobileLinksCollapsed) {
         mobileLinks.classList.remove("display\:none");
     } else {
         mobileLinks.classList.add("display\:none");
@@ -45,3 +45,13 @@ function observeGrid(gridNode) {
 
 const grid = document.querySelector('.grid');
 observeGrid(grid);
+
+if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+            });
+        }
+    });
+}
