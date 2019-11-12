@@ -1,10 +1,12 @@
 ---
 layout: layouts/project.njk
-title: Test Project
-thumbnailSrc: "https://picsum.photos/400/200"
-tags: ['projects', 'animation']
+title: Umbrella Rigged Model
+thumbnailSrc: 'https://picsum.photos/400/200'
+tags:
+  - projects
+  - animation
+  - '3'
 ---
+I created this model for use in a friend’s Unity game in spring 2018 using Autodesk Maya.
 
-## {{ title }}
-
-This is a test project!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CZqhzBBqVCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
