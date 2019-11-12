@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poppins&display=swap');
+
+// Color and font variables
+$font-heading: 'Comfortaa', cursive;
+$font-text: 'Poppins', sans-serif;
+
+// ratio and modular scale
+$ratio: 1.5;
+$s0: 1rem;
+$s1: $s0 * $ratio;
+$s2: $s1 * $ratio;
+$s3: $s2 * $ratio;
+$s4: $s3 * $ratio;
+$s5: $s4 * $ratio;
+$s-1: $s0 / $ratio;
+$s-2: $s-1 / $ratio;
+$s-3: $s-2 / $ratio;
+$s-4: $s-3 / $ratio;
+$s-5: $s-4 / $ratio;
+
+// measure and line height
+$measure: 65ch;
+$line-height: $ratio;
+$line-height-small: 0.8 * $ratio;
+
+// Set font, color, line height etc in root
+:root{
+    line-height: $ratio;
+    font-size: calc(.333vw + 1em);
+    font-family: $font-text;
+    background-color: #fff;
+    color: #000;
+}
+
+// Set heading sizes and default type styles
+
+h1, .h1 {
+    font-size: $s3;
+    font-family: $font-heading;
+    letter-spacing: 0.1em;
+}
+h2, .h2 {
+    font-size: $s2;
+    font-family: $font-text;
+}
+h3, .h3 {
+    font-size: $s1;
+    font-family: $font-text;
+}
+h4, .h4 {
+    font-size: $s-1;
+}
+h5, .h5 {
+    font-size: $s-2;
+}
+h6, .h6 {
+    font-size: $s-3;
+}

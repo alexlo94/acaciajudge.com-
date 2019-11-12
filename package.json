@@ -1,0 +1,22 @@
+{
+  "name": "acaciajudge.com-",
+  "version": "1.0.0",
+  "description": "11ty site for acaciajudge.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlo94/acaciajudge.com-.git"
+  },
+  "author": "Acacia Judge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexlo94/acaciajudge.com-/issues"
+  },
+  "homepage": "https://github.com/alexlo94/acaciajudge.com-#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}

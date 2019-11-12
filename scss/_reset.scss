@@ -1,0 +1,11 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    background-color: inherit;
+    font-family: inherit;
+    color: inherit;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+    text-decoration: none;
+}

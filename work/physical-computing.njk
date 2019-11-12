@@ -1,0 +1,23 @@
+---
+layout: layouts/work.njk
+---
+
+{%- for project in collections.physical-computing -%}
+<a href= {{ project.url }}>
+    <article class="card">
+        <div class="frame">
+            <img src= {{ project.data.thumbnailSrc }} alt="">
+        </div>
+        <h4>{{ project.data.title }}</h4>
+    </article>
+</a>
+
+{% else %}
+    <article style="
+    grid-column: 1 / -1;
+    grid-row: 1;
+">
+        <h2> Ooops, Looks like this collection is empty </h2>
+        <p> Check back when there's more here </p>
+    </article>  
+{%- endfor -%}

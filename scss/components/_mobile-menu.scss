@@ -1,0 +1,40 @@
+.mobile-menu {
+    display:none;
+}
+
+.mobile-links {
+    display: none;
+}
+
+@media only screen and (max-width: 503px) {
+    .work, .navigation, .social-media, .footer {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        background: #000;
+        color: #fff;
+    
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+    }
+
+    .mobile-links {
+        display: block;
+        background: #000;
+        color: #fff;
+    
+        border-top: #fff 2px solid;
+        margin-top: -0.25rem;
+    
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+    }
+}

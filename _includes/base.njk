@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {# <link rel="stylesheet" href="./css/main.css"> #}
+    {% set css %}
+        {% include "assets/css/main.css" %}
+    {% endset %}
+    <style>{{ css | safe }}</style>
+    <script src="https://kit.fontawesome.com/409f2580b6.js" crossorigin="anonymous"></script>
+    <title>CaseyJudge | Portfolio</title>
+</head>
+
+<body>
+    <div class="container with-sidebar padding-s0">
+        <div class="wrapper">
+            <aside class="stack text-align-right">
+                <h1 class="logo">Casey Judge</h1>
+                <nav class="stack">
+                    <a href="javascript:void(0);" class="mobile-menu cluster">
+                        <div class="wrapper justify-content:center">
+                            <p>Menu</p><i class="fas fa-bars"></i>
+                        </div>
+                    </a>
+                    <div class="stack mobile-links display:none">
+                        <div class="stack-sm">
+                            <a section-link="work" href="/work/all">All Work</a>
+                            <a href="/work/3d-models">3D Models</a>
+                            <a href="/work/ux-ui-design">UX/UI Design</a>
+                            <a href="/work/animation">Animation</a>
+                            <a href="/work/interactive-media">Interactive Media</a>
+                            <a href="/work/physical-computing">Physical Computing</a>
+                        </div>
+                        <div class="stack-sm">
+                            <a href="/about">About</a>
+                            <a href="/contact">Contact</a>
+                        </div>
+                        <div class="cluster">
+                            <div class="wrapper">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <footer class="cluster">
+                            <div class="wrapper">
+                                <h5 style="
+                                    width: 30ch;
+                                    text-align: right;
+                                ">site design (c) casey judge.
+                                    website built by alex lotsos.</h5>
+                            </div>
+                        </footer>
+                    </div>
+                    <div class="stack-sm work">
+                        <a section-link="work" href="/work/all">All Work</a>
+                        <a style="color: #B70000;" href="/work/3d-models">3D Models</a>
+                        <a style="color: #BD8800;" href="/work/ux-ui-design">UX/UI Design</a>
+                        <a style="color: #00BD13;" href="/work/animation">Animation</a>
+                        <a style="color: #0028B7;" href="/work/interactive-media">Interactive Media</a>
+                        <a style="color: #8700B7;" href="/work/physical-computing">Physical Computing</a>
+                    </div>
+                    <div class="stack-sm navigation">
+                        <a section-link="about" href="/about">About</a>
+                        <a section-link="contact" href="/contact">Contact</a>
+                    </div>
+                </nav>
+                <div class="cluster social-media">
+                    <div class="wrapper">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <footer class="cluster footer">
+                    <div class="wrapper">
+                        <h5 style="
+                        width: 30ch;
+                        text-align: right;
+                    ">site design (c) casey judge.
+                            website built by alex lotsos.</h5>
+                    </div>
+                </footer>
+            </aside>
+            <main class="padding-s0">
+                {{ layoutContent | safe }}
+            </main>
+        </div>
+    </div>
+
+    {# <script src="./js/main.js"></script> #}
+    {% set js %}
+        {% include "assets/js/main.js" %}
+    {% endset %}
+    <script>{{ js | safe }}</script>
+</body>

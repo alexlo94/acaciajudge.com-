@@ -1,0 +1,11 @@
+.logo {
+    line-height: $line-height-small;
+    letter-spacing: 0.1rem;
+    text-align: right;
+}
+
+@media only screen and (max-width: 503px) {
+    .logo {
+        text-align: center;
+    }
+}
