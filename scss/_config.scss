@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poppins:400,700&display=swap');
 
 // Color and font variables
 $font-heading: 'Comfortaa', cursive;
@@ -63,6 +63,10 @@ h5, .h5 {
 }
 h6, .h6 {
     font-size: $s-3;
+}
+
+section {
+    max-width: 70ch;
 }
 
 @media only screen and (max-width: 503px) {

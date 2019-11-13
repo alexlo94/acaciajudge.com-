@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Poppins:400,700&display=swap");
 *, ::before, ::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -46,6 +46,10 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 0.2963rem;
+}
+
+section {
+  max-width: 70ch;
 }
 
 @media only screen and (max-width: 503px) {
@@ -385,6 +389,10 @@ h6, .h6 {
 
 .text-align-center {
   text-align: center;
+}
+
+.color\:gray {
+  color: #aaaaaa;
 }
 
 .line-height-sm {
