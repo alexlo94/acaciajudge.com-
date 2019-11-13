@@ -3,6 +3,14 @@
 // Color and font variables
 $font-heading: 'Comfortaa', cursive;
 $font-text: 'Poppins', sans-serif;
+$color-red: rgb(184, 0, 0);
+$color-orange: rgb(189, 136, 0);
+$color-green: rgb(0, 189, 19);
+$color-blue: rgb(0, 40, 183);
+$color-purple: rgb(135, 0, 183);
+$color-black: #000;
+$color-white: #fff;
+$colors: $color-red $color-orange $color-green $color-blue $color-purple;
 
 // ratio and modular scale
 $ratio: 1.5;
@@ -28,8 +36,8 @@ $line-height-small: 0.8 * $ratio;
     line-height: $ratio;
     font-size: calc(.333vw + 1em);
     font-family: $font-text;
-    background-color: #fff;
-    color: #000;
+    background-color: $color-white;
+    color: $color-black;
 }
 
 // Set heading sizes and default type styles
@@ -55,4 +63,10 @@ h5, .h5 {
 }
 h6, .h6 {
     font-size: $s-3;
+}
+
+@media only screen and (max-width: 503px) {
+    h1, .h1, h2, .h2, h3, .h3{
+        text-align: center;
+    }
 }

@@ -1,20 +1,3 @@
-const state = {
-    mobileLinksCollapsed: true
-}
-
-/* Mobile Menu onClick */
-const mobileMenu = document.querySelector('.mobile-menu');
-const mobileLinks = document.querySelector('.mobile-links');
-mobileMenu.addEventListener('click', (event) => {
-    state.mobileLinksCollapsed = !state.mobileLinksCollapsed;
-    // mobileLinks.style.display = state.mobileLinksCollapsed ? "none" : "block";
-    if (!state.mobileLinksCollapsed) {
-        mobileLinks.classList.remove("display\:none");
-    } else {
-        mobileLinks.classList.add("display\:none");
-    }
-});
-
 function observeGrid(gridNode) {
     // Feature detect ResizeObserver
     if ('ResizeObserver' in window) {
@@ -45,13 +28,3 @@ function observeGrid(gridNode) {
 
 const grid = document.querySelector('.grid');
 observeGrid(grid);
-
-if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-        if (!user) {
-            window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-            });
-        }
-    });
-}

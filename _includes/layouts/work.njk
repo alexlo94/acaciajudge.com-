@@ -5,3 +5,7 @@ layout: base.njk
 <section class="grid" id="work">
     {{ layoutContent | safe }}
 </section>
+{% set observeGrid %}
+    {% include "assets/js/observeGrid.js" %}
+{% endset %}
+<script>{{ observeGrid | jsmin | safe }}</script>

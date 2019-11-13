@@ -48,6 +48,12 @@ h6, .h6 {
   font-size: 0.2963rem;
 }
 
+@media only screen and (max-width: 503px) {
+  h1, .h1, h2, .h2, h3, .h3 {
+    text-align: center;
+  }
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
@@ -339,6 +345,38 @@ h6, .h6 {
     margin-right: auto;
     padding: 1rem;
   }
+}
+
+@use "sass:list";
+.work a:hover, .work a.active,
+.navigation a:hover,
+.navigation a.active {
+  font-weight: bold;
+}
+
+.work a.cat-1:hover,
+.navigation a.cat-1:hover {
+  color: #b80000;
+}
+
+.work a.cat-2:hover,
+.navigation a.cat-2:hover {
+  color: #bd8800;
+}
+
+.work a.cat-3:hover,
+.navigation a.cat-3:hover {
+  color: #00bd13;
+}
+
+.work a.cat-4:hover,
+.navigation a.cat-4:hover {
+  color: #0028b7;
+}
+
+.work a.cat-5:hover,
+.navigation a.cat-5:hover {
+  color: #8700b7;
 }
 
 .text-align-right {

@@ -1,0 +1,14 @@
+@use "sass:list";
+
+.work,
+.navigation {
+    a:hover, a.active {
+        font-weight: bold;
+    }
+
+    @for $i from 1 through 5 {
+        a.cat-#{$i}:hover {
+            color: nth($colors, $i);
+        }
+    }
+}
