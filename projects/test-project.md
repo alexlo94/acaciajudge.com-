@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Umbrella Rigged Model
-thumbnailSrc: /static/images/uploads/screen-shot-2019-04-17-at-11.11.41-pm.png
+thumbnailSrc: /static/images/uploads/umbrella_tile.png
 tags:
   - projects
   - animation
