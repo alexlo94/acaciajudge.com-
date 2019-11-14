@@ -5,7 +5,7 @@ thumbnailSrc: /static/images/uploads/umbrella_tile.png
 tags:
   - projects
   - animation
-  - 3d-model
+  - 3d-models
 ---
 ## {{title}}
 
