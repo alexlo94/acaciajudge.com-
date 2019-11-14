@@ -14,7 +14,7 @@ Created for a "Still & Moving Images" class at NYU, I made every aspect of this 
 
 <div class="grid">
 
-<div class="frame"><img src="/static/images/uploads/img_1757.jpg" alt=""></img></div>\
+<div class="frame"><img src="/static/images/uploads/img_1757.jpg" alt=""></img></div>
 <div class="frame"><img src="/static/images/uploads/img_1757.jpg" alt=""></img></div>
 
 </div>
