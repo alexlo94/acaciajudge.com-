@@ -1,12 +1,12 @@
-$frame-n: 9;
-$frame-d: 16;
+$frame-sq-n: 1;
+$frame-sq-d: 1;
 
-.frame {
-    padding-bottom: ($frame-n / $frame-d) * 100%;
+.frame-square {
+    padding-bottom: ($frame-sq-n / $frame-sq-d) * 100%;
     position: relative;
   }
   
-  .frame > * {
+  .frame-square > * {
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -18,9 +18,9 @@ $frame-d: 16;
     align-items: center;
   }
   
-  .frame > img,
-  .frame > video,
-  .frame > iframe {
+  .frame-square > img,
+  .frame-square > video,
+  .frame-square > iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;

@@ -138,7 +138,7 @@ section {
 }
 
 .frame {
-  padding-bottom: 100%;
+  padding-bottom: 56.25%;
   position: relative;
 }
 
@@ -163,6 +163,38 @@ section {
 .frame > img,
 .frame > video,
 .frame > iframe {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.frame-square {
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.frame-square > * {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.frame-square > img,
+.frame-square > video,
+.frame-square > iframe {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
