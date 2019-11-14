@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poppins:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Poppins:400,700&display=swap');
 
 // Color and font variables
-$font-heading: 'Comfortaa', cursive;
+$font-heading: 'Fredericka the Great', cursive;
 $font-text: 'Poppins', sans-serif;
 $color-red: rgb(184, 0, 0);
 $color-orange: rgb(189, 136, 0);
@@ -63,6 +63,10 @@ h5, .h5 {
 }
 h6, .h6 {
     font-size: $s-3;
+}
+
+p, .p {
+    font-size: 0.8*$s0;
 }
 
 section {

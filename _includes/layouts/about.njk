@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 
-<section class="switcher" id="about">
+{# <section class="switcher" id="about">
     <div class="wrapper">
         <div class="">
             <div class="frame"><img src= {{ imgSrc }} alt=""></div>
@@ -11,6 +11,18 @@ layout: base.njk
 
             {{ layoutContent | safe }}
 
+        </div>
+    </div>
+</section> #}
+
+<section class="stack" id="about">
+    <h2>About Me</h2>
+    <div class="switcher">
+        <div class="wrapper">
+            <div class="frame"><img src= {{ imgSrc }} alt="A picture of Casey Judge"></div>
+            <div class="stack">
+                {{ layoutContent | safe }}
+            </div>
         </div>
     </div>
 </section>
