@@ -12,9 +12,11 @@ Created for a "Still & Moving Images" class at NYU, I made every aspect of this 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 25px height: 0;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ofZSLZJiZF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<div class="grid">
+<div class="switcher">
+
+<div class="wrapper>
 
 <div class="frame"><img src="/static/images/uploads/img_1757.jpg" alt=""></img></div>
 <div class="frame"><img src="/static/images/uploads/img_1757.jpg" alt=""></img></div>
 
-</div>
+</div> </div>
