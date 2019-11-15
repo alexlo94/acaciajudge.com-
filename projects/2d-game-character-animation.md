@@ -5,6 +5,7 @@ thumbnailSrc: /static/images/uploads/derpipus_tile.png
 tags:
   - animation
   - interactive-media
+  - projects
 ---
 ## {{title}}
 
