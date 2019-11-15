@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: '"Aye-Aye"'
-thumbnailSrc: /static/images/uploads/aye-aye_tile.png
+thumbnailSrc: /static/images/uploads/aye-aye_tile_gray.png
 tags:
   - animation
   - projects
