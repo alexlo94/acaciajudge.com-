@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: '"I Want to Believe"'
-thumbnailSrc: /static/images/uploads/ufo_tile.png
+thumbnailSrc: /static/images/uploads/ufo_tile_gray.png
 tags:
   - animation
   - projects
