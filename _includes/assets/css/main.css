@@ -468,77 +468,77 @@ section {
 }
 
 .color\:red {
-  color: #b80000;
+  color: #b80000 !important;
 }
 
 .color\:orange {
-  color: #bd8800;
+  color: #bd8800 !important;
 }
 
 .color\:green {
-  color: #00bd13;
+  color: #00bd13 !important;
 }
 
 .color\:blue {
-  color: #0028b7;
+  color: #0028b7 !important;
 }
 
 .color\:purple {
-  color: #8700b7;
+  color: #8700b7 !important;
 }
 
 .color\:black {
-  color: #000;
+  color: #000 !important;
 }
 
 .color\:gray {
-  color: #696969;
+  color: #696969 !important;
 }
 
 .color\:white {
-  color: #fff;
+  color: #fff !important;
 }
 
 .background-color\:red {
-  color: #b80000;
+  color: #b80000 !important;
 }
 
 .background-color\:orange {
-  color: #bd8800;
+  color: #bd8800 !important;
 }
 
 .background-color\:green {
-  color: #00bd13;
+  color: #00bd13 !important;
 }
 
 .background-color\:blue {
-  color: #0028b7;
+  color: #0028b7 !important;
 }
 
 .background-color\:purple {
-  color: #8700b7;
+  color: #8700b7 !important;
 }
 
 .background-color\:black {
-  color: #000;
+  color: #000 !important;
 }
 
 .background-color\:gray {
-  color: #696969;
+  color: #696969 !important;
 }
 
 .color\:white {
-  color: #fff;
+  color: #fff !important;
 }
 
 .object-fit\:contain {
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
 }
 
 .object-fit\:scale-down {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  -o-object-fit: scale-down !important;
+     object-fit: scale-down !important;
 }
 
 .hidden {
