@@ -2,7 +2,7 @@
 const navlinks = document.querySelectorAll(".mobile-links a, .work a, .navigation a");
 
 for(link of navlinks ){
-    if(window.location.pathname.includes(link.getAttribute("href"))) {
+    if(window.location.href.includes(link.getAttribute("href"))) {
         link.classList.add("active");
     }
 }

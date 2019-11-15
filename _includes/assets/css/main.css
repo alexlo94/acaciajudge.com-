@@ -38,18 +38,25 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 0.66667rem;
+  font-weight: normal;
 }
 
 h5, .h5 {
   font-size: 0.44444rem;
+  font-weight: normal;
 }
 
 h6, .h6 {
   font-size: 0.2963rem;
+  font-weight: normal;
 }
 
 p, .p {
   font-size: 0.8rem;
+}
+
+img, .img {
+  max-width: 100%;
 }
 
 section {
@@ -395,28 +402,38 @@ section {
   font-weight: bold;
 }
 
-.work a.cat-1:hover,
-.navigation a.cat-1:hover {
+.work a.cat-1:hover, .work a.cat-1:active, .work a.cat-1.active,
+.navigation a.cat-1:hover,
+.navigation a.cat-1:active,
+.navigation a.cat-1.active {
   color: #b80000;
 }
 
-.work a.cat-2:hover,
-.navigation a.cat-2:hover {
+.work a.cat-2:hover, .work a.cat-2:active, .work a.cat-2.active,
+.navigation a.cat-2:hover,
+.navigation a.cat-2:active,
+.navigation a.cat-2.active {
   color: #bd8800;
 }
 
-.work a.cat-3:hover,
-.navigation a.cat-3:hover {
+.work a.cat-3:hover, .work a.cat-3:active, .work a.cat-3.active,
+.navigation a.cat-3:hover,
+.navigation a.cat-3:active,
+.navigation a.cat-3.active {
   color: #00bd13;
 }
 
-.work a.cat-4:hover,
-.navigation a.cat-4:hover {
+.work a.cat-4:hover, .work a.cat-4:active, .work a.cat-4.active,
+.navigation a.cat-4:hover,
+.navigation a.cat-4:active,
+.navigation a.cat-4.active {
   color: #0028b7;
 }
 
-.work a.cat-5:hover,
-.navigation a.cat-5:hover {
+.work a.cat-5:hover, .work a.cat-5:active, .work a.cat-5.active,
+.navigation a.cat-5:hover,
+.navigation a.cat-5:active,
+.navigation a.cat-5.active {
   color: #8700b7;
 }
 
@@ -447,6 +464,84 @@ section {
 }
 
 .display\:none {
+  display: none;
+}
+
+.color\:red {
+  color: #b80000;
+}
+
+.color\:orange {
+  color: #bd8800;
+}
+
+.color\:green {
+  color: #00bd13;
+}
+
+.color\:blue {
+  color: #0028b7;
+}
+
+.color\:purple {
+  color: #8700b7;
+}
+
+.color\:black {
+  color: #000;
+}
+
+.color\:gray {
+  color: #696969;
+}
+
+.color\:white {
+  color: #fff;
+}
+
+.background-color\:red {
+  color: #b80000;
+}
+
+.background-color\:orange {
+  color: #bd8800;
+}
+
+.background-color\:green {
+  color: #00bd13;
+}
+
+.background-color\:blue {
+  color: #0028b7;
+}
+
+.background-color\:purple {
+  color: #8700b7;
+}
+
+.background-color\:black {
+  color: #000;
+}
+
+.background-color\:gray {
+  color: #696969;
+}
+
+.color\:white {
+  color: #fff;
+}
+
+.object-fit\:contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-fit\:scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.hidden {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */

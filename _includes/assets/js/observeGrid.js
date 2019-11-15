@@ -28,3 +28,4 @@ function observeGrid(gridNode) {
 
 const grid = document.querySelector('.grid');
 observeGrid(grid);
+animateCSSGrid.wrapGrid(grid, {duration : 350, easing :'backOut'});

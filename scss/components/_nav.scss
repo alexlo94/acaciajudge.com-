@@ -8,7 +8,7 @@
     }
 
     @for $i from 1 through 5 {
-        a.cat-#{$i}:hover {
+        a.cat-#{$i}:hover, a.cat-#{$i}:active, a.cat-#{$i}.active {
             color: nth($colors, $i);
         }
     }

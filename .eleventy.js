@@ -5,6 +5,11 @@ const htmlmin = require("html-minifier");
 module.exports = function (eleventyConfig) {
   // Output directory: _site
 
+  //filter to get a list of items and separate them into individual items separated by spaces
+  eleventyConfig.addNunjucksFilter("separate", function(list) {
+    return list.join(" ");
+  });
+
   // Minify CSS
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;

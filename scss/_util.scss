@@ -25,3 +25,67 @@
 .display\:none{
     display: none;
 }
+
+// Color classes
+.color\:red {
+    color: $color-red;
+}
+.color\:orange {
+    color: $color-orange;
+}
+.color\:green {
+    color: $color-green;
+}
+.color\:blue {
+    color: $color-blue;
+}
+.color\:purple {
+    color: $color-purple;
+}
+.color\:black {
+    color: $color-black;
+}
+.color\:gray {
+    color: $color-gray;
+}
+.color\:white {
+    color: $color-white;
+}
+
+.background-color\:red {
+    color: $color-red;
+}
+.background-color\:orange {
+    color: $color-orange;
+}
+.background-color\:green {
+    color: $color-green;
+}
+.background-color\:blue {
+    color: $color-blue;
+}
+.background-color\:purple {
+    color: $color-purple;
+}
+.background-color\:black {
+    color: $color-black;
+}
+.background-color\:gray {
+    color: $color-gray;
+}
+.color\:white {
+    color: $color-white;
+}
+
+// image utility classes
+.object-fit\:contain {
+    object-fit: contain;
+}
+
+.object-fit\:scale-down {
+    object-fit: scale-down;
+}
+
+.hidden {
+    display: none;
+}
