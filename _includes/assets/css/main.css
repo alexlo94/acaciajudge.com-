@@ -486,6 +486,7 @@ body {
 
 @media (hover: hover) {
   .card {
+    color: #696969;
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
     -webkit-transition: -webkit-filter 0.5s ease-out;
@@ -494,6 +495,7 @@ body {
     transition: filter 0.5s ease-out, -webkit-filter 0.5s ease-out;
   }
   .card:hover {
+    color: #000;
     -webkit-filter: grayscale(0);
             filter: grayscale(0);
     -webkit-transition: -webkit-filter 0.5s ease-out;
