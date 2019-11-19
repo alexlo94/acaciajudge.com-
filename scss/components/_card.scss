@@ -1,0 +1,11 @@
+@media (hover: hover) {
+    .card {
+        filter: grayscale(100%);
+        transition: filter 0.5s ease-out;
+    }
+    
+    .card:hover {
+        filter: grayscale(0);
+        transition: filter 0.5s ease-out;
+    }
+} 

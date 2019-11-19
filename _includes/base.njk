@@ -19,71 +19,47 @@
         <div class="wrapper">
             <aside class="stack text-align-right">
                 <a href="/"><h1 class="logo">CASEY JUDGE</h1></a>
-                <nav class="stack">
+                <nav class="">
                     <a href="javascript:void(0);" class="mobile-menu cluster">
                         <div class="wrapper justify-content:center">
-                            <p>Menu</p><i class="fas fa-bars" alt="test?"></i>
+                            Menu<i class="fas fa-bars" alt="test?"></i>
                         </div>
                     </a>
-                    <div class="stack mobile-links display:none">
-                        <div class="stack-sm">
-                            <a href="/">All Work</a>
-                            <a href="/#3d-models">3D Models</a>
-                            <a href="/#ux-ui-design">UX/UI Design</a>
-                            <a href="/#animation">Animation</a>
-                            <a href="/#interactive-media">Interactive Media</a>
-                            <a href="/#physical-computing">Physical Computing</a>
+                    <section class="menu collapsed stack justify-content:center">
+                        <div class="stack-sm work">
+                            <a class="active"href="/">All Work</a>
+                            <a class="cat-1" href="/#3d-models">3D Models</a>
+                            <a class="cat-2" href="/#ux-ui-design">UX/UI Design</a>
+                            <a class="cat-3" href="/#animation">Animation</a>
+                            <a class="cat-4" href="/#interactive-media">Interactive Media</a>
+                            <a class="cat-5" href="/#physical-computing">Physical Computing</a>
                         </div>
-                        <div class="stack-sm">
-                            <a href="/about">About</a>
-                            <a href="/contact">Contact</a>
+                        <div class="stack-sm navigation">
+                            <a section-link="about" href="/about">About</a>
+                            <a section-link="contact" href="/contact">Contact</a>
                         </div>
-                        <div class="cluster">
-                            <div class="wrapper justify-content:center">
-                                 <a href="https://www.instagram.com/acaciajudge/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/acacia-judge/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com/acaciajudge" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-                                <a href="mailto:acaciajudge@gmail.com" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></i></a>
+                        <div class="cluster social-media">
+                            <div class="wrapper">
+                                    <a href="https://www.instagram.com/acaciajudge/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/acacia-judge/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://twitter.com/acaciajudge" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                                    <a href="mailto:acaciajudge@gmail.com" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></i></a>
                             </div>
                         </div>
-                        <footer class="text-align-center">
+                        <footer class="footer">
                             <h5>site design (c) casey judge.</h5>
                             <h5>website built by alex lotsos.</h5>
                         </footer>
-                    </div>
-                    <div class="stack-sm work">
-                        <a href="/">All Work</a>
-                        <a class="cat-1" href="/#3d-models">3D Models</a>
-                        <a class="cat-2" href="/#ux-ui-design">UX/UI Design</a>
-                        <a class="cat-3" href="/#animation">Animation</a>
-                        <a class="cat-4" href="/#interactive-media">Interactive Media</a>
-                        <a class="cat-5" href="/#physical-computing">Physical Computing</a>
-                    </div>
-                    <div class="stack-sm navigation">
-                        <a section-link="about" href="/about">About</a>
-                        <a section-link="contact" href="/contact">Contact</a>
-                    </div>
+                    </section>
                 </nav>
-                <div class="cluster social-media">
-                    <div class="wrapper">
-                            <a href="https://www.instagram.com/acaciajudge/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/acacia-judge/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://twitter.com/acaciajudge" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-                            <a href="mailto:acaciajudge@gmail.com" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></i></a>
-                    </div>
-                </div>
-                <footer class="text-align-right footer">
-                    <h5>site design (c) casey judge.</h5>
-                    <h5>website built by alex lotsos.</h5>
-                </footer>
             </aside>
             <main class="padding-s0">
                 {{ layoutContent | safe }}
             </main>
         </div>
     </div>
-    {% set mobileMenu %}
-        {% include "assets/js/mobile-menu.js" %}
+    {% set navjs %}
+        {% include "assets/js/nav.js" %}
     {% endset %}
-    <script>{{ mobileMenu | jsmin | safe }}</script>
+    <script>{{ navjs | jsmin | safe }}</script>
 </body>

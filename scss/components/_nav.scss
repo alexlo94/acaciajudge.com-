@@ -1,10 +1,23 @@
 @use "sass:list";
 
+.mobile-menu {
+    display: none;
+}
+
+.social-media {
+    color: $color-gray;
+}
+
+.footer {
+    padding-bottom: $s0;
+}
+
 .work,
 .navigation {
 
     a:hover, a.active {
         font-weight: bold;
+        cursor: pointer;
     }
 
     @for $i from 1 through 5 {
@@ -12,4 +25,47 @@
             color: nth($colors, $i);
         }
     }
+}
+
+@media only screen and (max-width: 40em) {
+    .logo {
+        text-align: center;
+    }
+
+    nav {
+        background: #ddd;
+
+        .mobile-menu {
+            display: block;
+            text-align: center;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1.5rem 0.5rem;
+        }
+
+        .menu {
+            text-align: center;
+
+            .social-media {
+                .wrapper {
+                    justify-content: center;
+                }
+            }
+
+            overflow: hidden;
+            height: auto;
+            max-height: 530px;
+            transition:max-height 0.3s ease-out;
+        }
+
+        .menu.collapsed {
+            max-height: 0;
+        }
+
+        .social-media {
+            color: inherit;
+        }
+    }
+
 }
