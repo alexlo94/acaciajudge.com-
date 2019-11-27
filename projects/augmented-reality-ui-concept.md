@@ -6,6 +6,8 @@ tags:
   - ux-ui-design
   - projects
 ---
+## {{title}}
+
 Created using various stock images found online in order to quickly communicate an AR product concept to teammates at Unseen Media.
 
 <div class="frame">
@@ -13,5 +15,5 @@ Created using various stock images found online in order to quickly communicate 
 </div>
 
 <div class="frame">
-<img src="/static/images/uploads/tabletopar3.png"></img>
+<img src="/static/images/uploads/tabletopar3.png" class="object-fit:contain"></img>
 </div>
