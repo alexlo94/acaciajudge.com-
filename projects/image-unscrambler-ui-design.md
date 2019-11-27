@@ -16,5 +16,5 @@ I designed this UI for a portion of an Unseen Media game, where players are task
 </div>
 
 <div class="frame">
-<img src="/static/images/uploads/full_unscrambled_reduced.png" class="object-fit:contain"></img>
+<img src="/static/images/uploads/full_unscrambled_reduced.jpg" class="object-fit:contain"></img>
 </div>
