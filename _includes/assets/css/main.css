@@ -16,7 +16,7 @@
   line-height: 1.5;
   font-size: calc(.333vw + 1em);
   font-family: "Poppins", sans-serif;
-  background-color: #fff;
+  background-color: #f8f8f8;
   color: #000;
 }
 
@@ -564,7 +564,7 @@ body {
 }
 
 .color\:white {
-  color: #fff !important;
+  color: #f8f8f8 !important;
 }
 
 .background-color\:red {
@@ -596,7 +596,7 @@ body {
 }
 
 .color\:white {
-  color: #fff !important;
+  color: #f8f8f8 !important;
 }
 
 .object-fit\:contain {
