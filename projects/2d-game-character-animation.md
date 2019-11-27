@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.njk
-title: Game Character Animation
+title: 2D Game Character Animation
 thumbnailSrc: /static/images/uploads/derpipus_tile_gray.png
 tags:
   - animation
