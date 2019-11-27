@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.njk
-title: Vessel
+title: '"Vessel"'
 thumbnailSrc: /static/images/uploads/vessel_tile.png
 tags:
   - projects
