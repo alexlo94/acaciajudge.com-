@@ -5,7 +5,7 @@ thumbnailSrc: /static/images/uploads/coloring_tile.jpg
 tags:
   - projects
   - ux-ui-design
-  - physical-tech
+  - physical-computing
 ---
 ## {{title}}
 
