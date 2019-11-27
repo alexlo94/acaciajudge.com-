@@ -15,5 +15,5 @@ Created using various stock images found online in order to quickly communicate 
 </div>
 
 <div class="frame">
-<img src="/static/images/uploads/tabletopar3.png" class="object-fit:contain"></img>
+<img src="/static/images/uploads/tabletopar3.png" class="object-fit:scale-down"></img>
 </div>
