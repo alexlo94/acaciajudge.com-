@@ -18,7 +18,7 @@ In this design, I recommended a very simple UI with on-screen instructions that 
 <img src="/static/images/uploads/tabletopar_phone_interface.png" class="object-fit:contain"></img>
 </div>
 <div class="frame">
-<img src="/static/images/uploads/tabletopar3.png" class="object-fit:contain"></img>
+<img src="/static/images/uploads/tabletopar3.png" class="object-fit:scale-down"></img>
 </div>
 </div>
 </div>
