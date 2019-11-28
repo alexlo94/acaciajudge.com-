@@ -12,10 +12,13 @@ Created using various stock images found online in order to quickly communicate 
 
 In this design, I recommended a very simple UI with on-screen instructions that prompted the user to scan their surroundings for clues. When the correct image was scanned, mysterious green dust would appear around an area of interest in the photo.
 
+<div class="switcher">
+<div class="wrapper">
 <div class="frame">
-<img src="/static/images/uploads/tabletopar_phone_interface.png" class="object-fit:scale-down"></img>
+<img src="/static/images/uploads/tabletopar_phone_interface.png" class="object-fit:contain, object-fit:scale-down"></img>
 </div>
-
 <div class="frame">
 <img src="/static/images/uploads/tabletopar3.png" class="object-fit:contain"></img>
+</div>
+</div>
 </div>
