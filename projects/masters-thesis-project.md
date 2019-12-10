@@ -9,7 +9,7 @@ tags:
 ---
 ## {{title}}
 
-## Eye Appearance and the Uncanny Valley
+### Eye Appearance and the Uncanny Valley
 
 My Master's Thesis was a research project surrounding the concept of The Uncanny Valley, and featured a series of animations designed to investigate the role of eye movement in perceived "uncanniness" of a figure.
 
