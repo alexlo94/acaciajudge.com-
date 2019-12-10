@@ -5,7 +5,7 @@ thumbnailSrc: /static/images/uploads/thesis_tile.png
 tags:
   - projects
   - interactive-media
-  - animations
+  - animation
 ---
 ## {{title}}
 
