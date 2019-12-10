@@ -16,10 +16,10 @@ I created this physical game in another collaboration with Alex Lotsos. It was a
 </div>
 
 <div class="frame">
-<img src="36275635_2041694075842848_6490546803824394240_n.png">
+<img src="/static/images/uploads/36275635_2041694075842848_6490546803824394240_n.png">
 </div>
 
-<div class="frame">
+<div class="object-fit:contain">
 <img src="/static/images/uploads/img_1875.jpg">
 </div>
 
