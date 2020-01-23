@@ -14,8 +14,6 @@ I created this augmented reality experience in collaboration with Naomi Losman. 
 
 Using Vuforia and Unity, I augmented the appropriate pages of Harry Potter and the Sorcerer’s Stone so that they could be recognized by my computer’s webcam in order to view the immersive experience.
 
-<div class="frame"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/p-ab2-HB29Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="object-fit:contain"></iframe></div>
-
 <div class="frame">
 <iframe src="https://www.youtube.com/embed/p-ab2-HB29Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="object-fit:contain"></iframe>
 </div>
