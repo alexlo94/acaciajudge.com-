@@ -8,9 +8,11 @@ tags:
 ---
 ## {{title}}
 
-Created using various stock images found online in order to quickly communicate an AR product concept to teammates at Unseen Media.
+I created this UI in order to quickly communicate an AR product concept to teammates at Unseen Media.
 
-In this design, I recommended a very simple UI with on-screen instructions that prompted the user to scan their surroundings for clues. When the correct image was scanned, mysterious green dust would appear around an area of interest in the photo.
+In this design, I recommended a very simple UI with on-screen instructions that prompted the user to scan their surroundings for game clues. When the correct image was scanned, mysterious green dust would appear around an area of interest in the photo.
+
+During the creation of this design, I began to learn the complexities of designing a user interface for augmented reality. A lot of motions and gestures that AR designers take for granted - such as moving through physical space, tap to scan, and pinch to zoom - don't come naturally for people who have not interacted with augmented reality experiences previously. After some user testing, I began to incorporate subtle on-screen instructions that introduced the user to the various ways they could interact with an augmented reality environment.
 
 <div class="switcher">
 <div class="wrapper">
