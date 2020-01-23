@@ -10,11 +10,9 @@ tags:
 ---
 ## {{title}}
 
-A final project for an augmented reality class at NYU, I created this augmented reality experience in collaboration with Naomi Losman. Our goal was to alter a Harry Potter book so that when the book was viewed through our AR app, the contents of the page would come alive and leap off of the page (left, above). We animated two scenes: the sorting hat song from the beginning of the book, and the flying keys at the end of the book. I animated the key sequence (right, above), while my project partner Naomi animated the Sorting Hat sequence.
+I created this augmented reality experience in collaboration with Naomi Losman. Our goal was to alter a Harry Potter book so that when the book was viewed through our AR app, the contents of the page would come alive and leap off of the page. We animated two scenes: the sorting hat song from the beginning of the book, and the flying keys at the end of the book. I animated the key sequence, while my project partner Naomi animated the Sorting Hat sequence.
 
 Using Vuforia and Unity, I augmented the appropriate pages of Harry Potter and the Sorcerer’s Stone so that they could be recognized by my computer’s webcam in order to view the immersive experience.
-
-<div class="frame"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/p-ab2-HB29Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="object-fit:contain"></iframe></div>
 
 <div class="frame">
 <iframe src="https://www.youtube.com/embed/p-ab2-HB29Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="object-fit:contain"></iframe>
