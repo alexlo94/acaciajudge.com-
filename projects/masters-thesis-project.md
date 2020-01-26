@@ -11,13 +11,11 @@ tags:
 
 ### Eye Appearance and the Uncanny Valley
 
-My Master's Thesis was a research project surrounding the concept of The Uncanny Valley, and featured a series of animations designed to investigate the role of eye movement in perceived "uncanniness" of a figure.
+I submitted this project for my Master's Thesis. I compiled research around the concept of The Uncanny Valley, and the role of eye movement in perceived "uncanniness" of a figure. I then featured an original series of animations to investigate Uncanny Valley.
 
-The animations were all created by me from stock footage and a 3D model, using a combination of Maya 2018 and Adobe After Effects.
+I enhanced stock footage with a 3D model with a combination of Maya 2018 and Adobe After Effects. In the end, I was able to demonstrate that eye appearance alone triggered the uncanny valley effect in humans.
 
-In the end, I was able to show that eye appearance alone was able to trigger the uncanny valley effect in humans.
-
-p5.js image rating app used for gathering data provided courtesy of Alex Lotsos.
+Alex Lotsos built the image rating app I used for gathering data.
 
 <div class="frame">
 <img src="/static/images/uploads/girl.png">
