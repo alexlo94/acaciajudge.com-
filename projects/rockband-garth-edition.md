@@ -9,7 +9,7 @@ tags:
 ---
 ## {{title}}
 
-I created this physical game in a collaboration with Alex Lotsos. It was a Rockband-like rhythm game paired with a physical controller, which was a Garth-from-Wayne's-World wig rigged with an accelerometer. The player wears the wig, and bangs his/her head along to the beat of Bohemian Rhapsody, triggering a button press within the game on each downward motion, and thus racking up  score in the game. For this project, I built the full Unity portion of the game, and sewed the accelerometer controls into the wig.
+In a Rock Band-like rhythm game, players can fully rock out with a Garth-from-Wayne's-World wig rigged with an accelerometer. The player wears the wig, and bangs their head along to the beat of Bohemian Rhapsody. Each time the wig sitting on top of the player’s head reaches a downward motion, the player hits the beat, and racks up their score in the game. For this project, I built the full Unity portion of the game, and sewed the accelerometer controls into the wig.
 
 <div class="frame">
 <img src="/static/images/uploads/36228714_2041682475844008_7218132044931399680_n.png">
