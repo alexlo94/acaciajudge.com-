@@ -9,11 +9,10 @@ tags:
 ---
 ## {{title}}
 
-This is a physical game I created in collaboration with Alex Lotsos using an Arduino Gemma, NeoPixels, conductive thread, and conductive fabric.
+I, in collaboration with Alex Lotsos, created this physical game, using an Arduino Gemma, NeoPixels, conductive thread, and conductive fabric.
 
-The object of this game was to hit the other player's glove panel to deplete their "lives" one by one, until one player was left standing, in what was pretty much a digitally-enhanced game of tag.
-
-My contribution to this project was the full glove build, while Alex programed the game logic for the board.
+Imagine a digitally-enhanced game of tag: the goal of this game is for one player to hit the other players’ glove panel to deplete their "lives" one-by-one, until a final player was left standing. 
+I created the touch sensitive gloves, while Alex programmed the algorithm for the game.
 
 Additional glove model: Ali Fung.
 
