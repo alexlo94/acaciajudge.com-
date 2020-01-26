@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Harry PottAR
-thumbnailSrc: static/images/uploads/HarryPottAR_Tile.jpg
+thumbnailSrc: static/images/uploads/HarryPottAR_Tilecopy.jpg
 tags:
   - interactive-media
   - animation
