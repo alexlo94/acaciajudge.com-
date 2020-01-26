@@ -3,7 +3,7 @@ layout: layouts/project.njk
 title: Game Character Animated Rig
 thumbnailSrc: /static/images/uploads/derpipus_tile.png
 tags:
-  - blank
+  - hidden
 ---
 ## {{title}}
 
