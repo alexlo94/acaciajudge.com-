@@ -15,7 +15,7 @@ I submitted this project for my Master's Thesis. I compiled research around the 
 
 I enhanced stock footage with a 3D model with a combination of Maya 2018 and Adobe After Effects. In the end, I was able to demonstrate that eye appearance alone triggered the uncanny valley effect in humans.
 
-Alex Lotsos built the image rating app I used for gathering data.
+Alex Lotsos built the image rating app I used for gathering data for this project.
 
 <div class="frame">
 <img src="/static/images/uploads/girl.png">
