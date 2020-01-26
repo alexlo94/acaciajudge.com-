@@ -5,14 +5,16 @@ thumbnailSrc: /static/images/uploads/unseenui_1_tile-copy.png
 tags:
   - ux-ui-design
   - projects
+  - interactive-media
 ---
 ## {{title}}
 
 I created this UI in order to quickly communicate an AR product concept to teammates at Unseen Media.
 
-In this design, I recommended a very simple UI with on-screen instructions that prompted the user to scan their surroundings for game clues. When the correct image was scanned, mysterious green dust would appear around an area of interest in the photo.
+In this design, I recommended a simple UI with on-screen instructions that prompted the user to scan their surroundings for game clues. When the correct image was scanned, mysterious green dust would appear around an area of interest in the frame.
 
-During the creation of this design, I began to learn the complexities of designing a user interface for augmented reality. A lot of motions and gestures that AR designers take for granted - such as moving through physical space, tap to scan, and pinch to zoom - don't come naturally for people who have not interacted with augmented reality experiences previously. After some user testing, I began to incorporate subtle on-screen instructions that introduced the user to the various ways they could interact with an augmented reality environment.
+During the creation of this design, I began to learn the complexities of designing a user interface for augmented reality. Basic motions and gestures that AR developers take for granted — such as moving through physical space, tap to scan, and pinch to zoom — do not come naturally for people who have not previously interacted with augmented reality experiences. After some user testing, I began to incorporate subtle on-screen instructions that introduced users to the various ways they could interact with an augmented reality environment.
+
 
 <div class="switcher">
 <div class="wrapper">
