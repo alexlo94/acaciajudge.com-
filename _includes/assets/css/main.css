@@ -55,6 +55,14 @@ p, .p {
   font-size: 0.8rem;
 }
 
+main a, main .a {
+  color: #bd8800;
+}
+
+main a:hover, main .a:hover {
+  text-decoration: underline;
+}
+
 img, .img {
   max-width: 100%;
 }

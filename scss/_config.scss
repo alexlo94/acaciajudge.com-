@@ -73,6 +73,14 @@ p, .p {
     font-size: 0.8*$s0;
 }
 
+main a, main .a {
+    color: $color-orange;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 img, .img {
     max-width: 100%;
 }
