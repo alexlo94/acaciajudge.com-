@@ -35,7 +35,7 @@ Advertisements are necessary for funding any publication, and they do need a pl
 
 <img class="box-shadow" src="/static/images/uploads/PSR_Website_Redo-Ads.png" class="object-fit:contain"></img>
 
-<b>Articles/b>:
+<b>Articles</b>:
 I tried to condense all the major information regarding articles into their previews. Previews now contain an image, author, article title, and a few lines of content. Park Slope Reader seems to really value their author base, and I wanted to feature author names alongside their articles.
 
 <img class="box-shadow" src="/static/images/uploads/PSR_Website_Redo-Articles.png" class="object-fit:contain"></img>
