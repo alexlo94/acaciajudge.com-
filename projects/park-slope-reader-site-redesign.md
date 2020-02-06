@@ -16,7 +16,7 @@ Here is an example of the current website:
 
 And here is my redesign:
 
-<img class="border-thin" src="/static/images/uploads/PSR_Website_Redo.png" class="object-fit:contain"></img>
+<img class="box-shadow" src="/static/images/uploads/PSR_Website_Redo.png" class="object-fit:contain"></img>
 
 <b>Logo</b>:
 I took the logo from the original website and repositioned/resized it to make it the most prominent thing readers see when they first come to the site. Now, readers will know exactly where they are and what type of content they're going to see when they recognize a logo they know and trust.
