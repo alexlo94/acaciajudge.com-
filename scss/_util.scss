@@ -89,3 +89,11 @@
 .hidden {
     display: none;
 }
+
+.border-thin {
+    border: 1px solid $color-black;
+}
+
+.box-shadow, .drop-shadow {
+    box-shadow: 5px 6px 10px $color-gray;
+}
