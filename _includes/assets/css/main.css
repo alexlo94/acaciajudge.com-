@@ -63,6 +63,10 @@ main a:hover, main .a:hover {
   text-decoration: underline;
 }
 
+#work a, #work .a {
+  color: #000;
+}
+
 img, .img {
   max-width: 100%;
 }
