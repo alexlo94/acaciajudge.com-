@@ -1,11 +1,10 @@
 ---
 layout: layouts/project.njk
-title: 'Rockband: Garth Edition'
+title: "Rockband: Garth Edition"
 thumbnailSrc: /static/images/uploads/garth_tile.jpg
 tags:
-  - projects
-  - physical-computing
-  - interactive-media
+  - hidden
+  - ""
 ---
 ## {{title}}
 
