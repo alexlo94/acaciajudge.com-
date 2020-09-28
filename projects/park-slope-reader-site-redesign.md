@@ -24,9 +24,9 @@ I took the logo from the original website and repositioned/resized it to make it
 <img class="box-shadow" src="/static/images/uploads/PSR_Website_Redo-Logo.png" class="object-fit:contain"></img>
 
 <b>Navigation</b>:
-Instead of the article navigation bar containing links to specific articles, I decided it would be best to categorize all articles and sort them into pages where readers would be able to find the specific type of content they are looking for. Additionally, I added a prominent search icon right at the top, and links to search by both author and by date. I added their social media links into the header, so they will are accessible and on the same spot for every page.
+Instead of the article navigation bar containing links to specific articles, I decided it would be best to categorize all articles and sort them into pages where readers would be able to find the specific type of content they are looking for. Additionally, I added a prominent search icon right at the top, and links to search by both author and by date. I added their social media links into the header, so they are accessible and in the same spot for every page.
 
-I realized that the double navigation bars presented a potential to confuse readers, and decided it would be best to condense the navigation as much as possible. On the current site, the "upper" bar contains links to information that would pertain to a very specific audience: an audience that would seek it out only if they were interested <i>after</i> perusing the rest of the site (example: advertising information). Therefore, I decided to move these links to the footer, where links like "contact us" and "about" are often listed as secondary navigation on company websites. This keeps the information on every page, but does not take away from the core content: articles, and a way to quickly to access them.
+I realized that the double top navigation bars presented a potential to confuse readers, and decided it would be best to condense the navigation as much as possible. On the current site, the "upper" bar contains links to information that would pertain to a very specific audience: one that would seek it out only if they were interested <i>after</i> perusing the rest of the site (example: advertising information). Therefore, I decided to move these links to the footer, where links like "contact us" and "about" are often listed as secondary navigation on company websites. This keeps the information on every page, but does not take away from the core content: articles, and a way to quickly to access them.
 
 <img class="box-shadow" src="/static/images/uploads/PSR_Website_Redo-Navigation.png" class="object-fit:contain"></img>
 
@@ -36,6 +36,6 @@ Advertisements are necessary for funding any publication, and they do need a pl
 <img class="box-shadow" src="/static/images/uploads/PSR_Website_Redo-Ads.png" class="object-fit:contain"></img>
 
 <b>Articles</b>:
-I tried to condense all the major information regarding articles into their previews. Previews now contain an image, author, article title, and a few lines of content. Park Slope Reader seems to really value their author base, and I wanted to feature author names alongside their articles.
+I tried to condense all major information pertaining to highlighted articles into previews on the main page. Previews now contain an image, author, article title, and a few lines of content. Park Slope Reader seems to really value their author base, and I wanted to feature author names alongside their respective articles.
 
 <img class="box-shadow" src="/static/images/uploads/PSR_Website_Redo-Articles.png" class="object-fit:contain"></img>
