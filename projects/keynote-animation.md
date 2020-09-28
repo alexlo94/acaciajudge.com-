@@ -3,8 +3,8 @@ layout: layouts/project.njk
 title: Keynote Animation
 thumbnailSrc: static/images/uploads/keynote_tile.png
 tags:
-  - projects
-  - animation
+  - hidden
+  - ""
 ---
 ## {{title}}
 
