@@ -16,7 +16,7 @@
   line-height: 1.5;
   font-size: calc(.333vw + 1em);
   font-family: "Poppins", sans-serif;
-  background-color: #f8f8f8;
+  background-color: #fcfcfc;
   color: #000;
 }
 
@@ -56,7 +56,7 @@ p, .p {
 }
 
 main a, main .a {
-  color: #bd8800;
+  color: #60993e;
 }
 
 main a:hover, main .a:hover {
@@ -439,7 +439,7 @@ body {
 .navigation a.cat-3:hover,
 .navigation a.cat-3:active,
 .navigation a.cat-3.active {
-  color: #00bd13;
+  color: #60993e;
 }
 
 .work a.cat-4:hover, .work a.cat-4:active, .work a.cat-4.active,
@@ -552,7 +552,7 @@ body {
 }
 
 .color\:green {
-  color: #00bd13 !important;
+  color: #60993e !important;
 }
 
 .color\:blue {
@@ -572,7 +572,7 @@ body {
 }
 
 .color\:white {
-  color: #f8f8f8 !important;
+  color: #fcfcfc !important;
 }
 
 .background-color\:red {
@@ -584,7 +584,7 @@ body {
 }
 
 .background-color\:green {
-  color: #00bd13 !important;
+  color: #60993e !important;
 }
 
 .background-color\:blue {
@@ -604,7 +604,7 @@ body {
 }
 
 .color\:white {
-  color: #f8f8f8 !important;
+  color: #fcfcfc !important;
 }
 
 .object-fit\:contain {
