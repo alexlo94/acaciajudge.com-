@@ -3,9 +3,7 @@ layout: layouts/project.njk
 title: Umbrella Rigged Model
 thumbnailSrc: /static/images/uploads/umbrella_tile.png
 tags:
-  - projects
-  - animation
-  - 3d-models
+  - untagged
 ---
 ## {{title}}
 
