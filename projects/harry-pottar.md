@@ -3,10 +3,7 @@ layout: layouts/project.njk
 title: Harry PottAR
 thumbnailSrc: static/images/uploads/HarryPottAR_Tilecopy.jpg
 tags:
-  - interactive-media
-  - animation
-  - 3d-models
-  - projects
+  - untagged
 ---
 ## {{title}}
 
